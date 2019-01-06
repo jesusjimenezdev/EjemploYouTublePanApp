@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E129ED8320FA7AC600270E82 /* clip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E129ED8220FA7AC500270E82 /* clip.mp4 */; };
 		E1F4D1B120FA6E1400D0884E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F4D1B020FA6E1400D0884E /* AppDelegate.swift */; };
 		E1F4D1B320FA6E1400D0884E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F4D1B220FA6E1400D0884E /* ViewController.swift */; };
 		E1F4D1B620FA6E1400D0884E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F4D1B420FA6E1400D0884E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E129ED8220FA7AC500270E82 /* clip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = clip.mp4; sourceTree = "<group>"; };
 		E1F4D1AD20FA6E1400D0884E /* catchtrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catchtrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F4D1B020FA6E1400D0884E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F4D1B220FA6E1400D0884E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				E1F4D1B020FA6E1400D0884E /* AppDelegate.swift */,
 				E1F4D1B220FA6E1400D0884E /* ViewController.swift */,
 				E1F4D1B420FA6E1400D0884E /* Main.storyboard */,
+				E129ED8220FA7AC500270E82 /* clip.mp4 */,
 				E1F4D1B720FA6E1500D0884E /* Assets.xcassets */,
 				E1F4D1B920FA6E1500D0884E /* LaunchScreen.storyboard */,
 				E1F4D1BC20FA6E1500D0884E /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					E1F4D1AC20FA6E1400D0884E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -125,6 +129,7 @@
 				E1F4D1BB20FA6E1500D0884E /* LaunchScreen.storyboard in Resources */,
 				E1F4D1B820FA6E1500D0884E /* Assets.xcassets in Resources */,
 				E1F4D1B620FA6E1400D0884E /* Main.storyboard in Resources */,
+				E129ED8320FA7AC600270E82 /* clip.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,16 +286,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W85GJYFB35;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = catchtrans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.catchtrans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,16 +305,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W85GJYFB35;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = catchtrans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.catchtrans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
